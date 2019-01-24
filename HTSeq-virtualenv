@@ -1,0 +1,19 @@
+    #make directory lets say in /user/work/Desktop/
+    mkdir /user/work/Desktop/HTSeq
+    cd /user/work/Desktop/
+    #purge all modules 
+    module purge
+    #load python
+    module load python3/3.7.0
+    python -m venv HTSeq
+    source /user/work/Desktop/HTSeq/bin/activate
+    pip3 install --upgrade pip
+    pip3 install HTSeq
+    
+   # When you are done using is you deactivate the virtual environment by typing this into the terminal:
+    
+    $ deactivate
+    
+    #Whenever you need it again you activate it again from your HOME:
+    source ~/HTSeq/bin/activate
+    
