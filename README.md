@@ -9,7 +9,7 @@ Follow these instructions and it will work for you:
 > python -m venv HTSeq # if not working then
 > python3 -m venv HTSeq
 
-> source multiqc/bin/activate
+> source HTSeq/bin/activate
 > pip3 install --upgrade pip
 > pip3 install HTSeq
 
